@@ -7,7 +7,9 @@ defmodule Taller4.Application do
     opts = [strategy: :one_for_one, name: Taller4.Supervisor]
     {:ok, pid} = Supervisor.start_link(children, opts)
 
-    menu_principal()
+    if Mix.env() != :test do
+      menu_principal()
+    end
 
     {:ok, pid}
   end
