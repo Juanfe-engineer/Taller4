@@ -1,0 +1,14 @@
+{
+  "A001": {
+    "cantidad": 10,
+    "codigo": "A001",
+    "nombre": "Mancuerna",
+    "precio": 4.5e4
+  },
+  "B002": {
+    "cantidad": 5,
+    "codigo": "B002",
+    "nombre": "Barra",
+    "precio": 8.0e4
+  }
+}

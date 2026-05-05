@@ -134,11 +134,9 @@ defmodule Taller4.Inventario.Inventario do
   end
 
 
-  """
-  Productos con precio entre dos valores.
-  Retorna una cadena: "Producto1 - 50000, Producto2 - 70000"
-  """
 
+  # Productos con precio entre dos valores.
+  
   def productos_precio_entre(productos, min, max) do
     resultado =
       productos
