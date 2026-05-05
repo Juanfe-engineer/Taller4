@@ -1,5 +1,6 @@
 defmodule Taller4.Inventario.InventarioTest do
   use ExUnit.Case
+  
   alias Taller4.Inventario.Producto
   alias Taller4.Inventario.Inventario
 
